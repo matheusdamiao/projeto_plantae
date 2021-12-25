@@ -1,0 +1,119 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 120vh;
+  background-image: url('pexels-cottonbro-4505166 2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: relative;
+
+}
+
+
+.logo {
+  margin: 50px 100px;
+  width: 300px;
+}
+
+.logo::after {
+  content: "<h1> ALGUM TEXTO </h1>";
+}
+
+
+
+.top-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: space-between;
+}
+
+ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+li, a {
+  text-decoration: none;
+  list-style: none;
+  font-family: Rozha One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 0px;
+  text-align: center;
+  color: #000000;
+
+
+
+}
+
+
+.bottom-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  align-content: flex-end;
+  margin-top: 150px;
+  padding: 20px;
+}
+
+.texto-header {
+  font-family: Rozha One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 80px;
+  line-height: 88px;
+  color: white;
+  text-align: right;
+}
+
+
+.botoes {
+  display: flex;
+
+  }
+
+.btn1, .btn2 {
+  margin: 20px 20px;
+
+}
+
+.btn1 {
+  background: #D3FFA4;
+  box-shadow: 0px 6.80597px 5.10448px rgba(0, 0, 0, 0.25);
+  border-radius: 21.2687px;
+  width: 207px;
+  height: 61px;
+  font-family: Rozha One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 41px;
+}
+
+.btn2 {
+  background: #526F34;
+  box-shadow: 0px 6.80597px 5.10448px rgba(0, 0, 0, 0.25);
+  border-radius: 21.2687px;
+  width: 326px;
+  height: 61px;
+  font-family: Rozha One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 41px;
+  text-align: center;
+  color: #FFFFFF;
+}
